@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        *{
+            background-color: #474083;
+        }
+        div{
+            width: 25%;
+            height: 500px;
+            background-color: white;
+            border-radius: 10px;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin: auto;
+            margin-top: 30px;
+        }
+        a{
+            text-decoration:none;
+            color: lightseagreen;
+            background-color: white;
+        }
+        h1{
+            padding-bottom: 30px;
+            background-color: white;
+
+        }
+        button{
+            margin: auto;
+            width: 70%;
+            height: 40px;
+            color: white;
+            font-size: larger;
+            margin-bottom: 80px;
+            background-color: lightseagreen;
+        }
+        
+        form>input:first-child{
+            margin-bottom: 30px;
+            border-style: none;
+            background-color: white;
+        }
+        hr+input{
+            border-style: hidden;
+            background-color: white;
+        }
+        form{
+            text-align: left;
+            padding: 10px;
+            background-color: white;
+        }
+        #hr1{
+            margin-top: -20px;
+            margin-bottom: 50px;
+            border-color: black;
+        }
+        #hr2{
+            border-color: black;
+        }
+        h3{
+            margin-top: -30px;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Login</h1>
+    <form action="">
+        <input type="email" id="email" placeholder="Enter Your Email" name="Email">
+        <hr id="hr1">
+        <input type="password" id="pass" placeholder="Enter Your Password" name="Password">
+        <hr id="hr2">
+    </form>
+    <button id="btn">LOGIN</button>
+    <h3>Forgot <a href="">Password ?</a></h3>
+    <h3>Don't have an account? <a href="signupPage.html">Sign Up.</a></h3>
+    </div>
+    
+</body>
+</html>
